@@ -1,0 +1,25 @@
+{
+  "name": "linter-slim2",
+  "activationCommands": {},
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "Atom linter plugin for HAML, using slim-lint",
+  "repository": "https://github.com/rickclare/linter-slim2",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.151.0"
+  },
+  "dependencies": {
+    "atom-linter": "1.0.2",
+    "fs-extra": "0.22.1",
+    "temp": "0.8.3",
+    "xregexp": "2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}

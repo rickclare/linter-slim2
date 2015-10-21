@@ -3,7 +3,7 @@
   "activationCommands": {},
   "main": "./lib/main",
   "version": "1.0.0",
-  "description": "Atom linter plugin for HAML, using slim-lint",
+  "description": "Atom linter plugin for Slim, using slim-lint",
   "repository": "https://github.com/rickclare/linter-slim2",
   "license": "MIT",
   "engines": {

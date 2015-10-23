@@ -3,6 +3,8 @@ linter-slim2
 
 This linter plugin for [Linter](https://github.com/AtomLinter/Linter) provides an interface to [slim-lint](https://github.com/sds/slim-lint). It will be used with files that have the "Slim" syntax.
 
+The code for this plugin is based almost entirely on the [linter-haml](https://github.com/AtomLinter/linter-haml) plugin and operates in exactly the same manner.
+
 ## Installation
 
 ### Dependencies
@@ -14,8 +16,14 @@ Linter-slim relies on the slim-lint gem to perform linting. If you do not curren
 You may also need to install the [language-slim](https://github.com/slim-template/language-slim) plugin.
 
 ### Plugin installation
+~~`$ apm install linter-slim2`~~
+
+**Note**: The plugin has not yet been added to the Atom plugin repository, so the following manual installation steps are required:
+
 ```
-$ apm install linter-slim2
+git clone https://github.com/rickclare/linter-slim2.git
+cd linter-slim2
+apm link
 ```
 
 ## Settings

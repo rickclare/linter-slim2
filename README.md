@@ -23,6 +23,7 @@ You may also need to install the [language-slim](https://github.com/slim-templat
 ```
 git clone https://github.com/rickclare/linter-slim2.git
 cd linter-slim2
+npm install
 apm link
 ```
 
